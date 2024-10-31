@@ -220,7 +220,7 @@ width: 100%;
     padding: 20px;
     text-align: center;
    
-    background: url('/images/footerimage.jpg');
+    background: url('assets/images/footerimage.jpg');
 }
 
 .footer-home{
@@ -611,7 +611,7 @@ border-radius: 12px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url('/images/didBack.jpg');
+    background-image: url('assets/images/didBack.jpg');
     background-position: center;
 }
 .about-sections-flex{
