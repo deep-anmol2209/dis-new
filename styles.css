@@ -637,7 +637,7 @@ text-align: center;
 padding: 10px;
 }
 .image-back{
-    background: url('/images/footerimage.jpg');
+    background: url('assets/images/footerimage.jpg');
 }
 
 .about-section img{
