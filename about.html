@@ -9,15 +9,19 @@
 <body>
     <div class="navouter">
     
-        <header class="sticky bgcolor">
+        <header class=" sticky bgcolor " id="navbar-h" >
             <nav class="navbar-about">
                <div class="nav-container">
                <div class="logo">
                    <img src="assets/images/DIS.jpeg" alt="DIS" height="100" width="100">
                </div>
-   
+               <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
                <div class="list-items">
-                   <ul>
+                   <ul id="nav-menu">
                        <li><a href="/index.html">Home</a></li>
                        <li><a href="/about.html">About</a></li>
                        <li><a href="/contact.html">Contact</a></li>
@@ -50,7 +54,7 @@
             <div class="about-sections-flex padding-section-divs">
             <div class="who-we-are-p"><p>At <strong>Dashmesh Imigration</strong>, we specialize in providing comprehensive immigration solutions tailored to meet the needs of our diverse clientele. Whether you're seeking to <strong>study, work, or settle abroad,</strong> our team of experienced immigration consultants is here to guide you through every step of the process. Our expertise spans across multiple countries, including the <strong>SA, Canada, UK, Australia,</strong> and many more.</p>
             </div>
-             <div class="who we-are-img wd"><img src="assets/images/Immigration-Visa.webp" alt="Immigration"></div>
+             <div class="who we-are-img wd"><img src="assets/images/imageabout.webp" alt="Immigration"></div>
             </div>
         </section>
 
@@ -119,7 +123,9 @@
 
         <section class="branches-section ">
             <h2>Our Branches</h2>
+            <div class="branches-img">
             <img src="assets/images/WhatsApp Image 2024-10-06 at 23.50.35.jpeg" alt="">
+        </div>
         </section>
 
     </main>
@@ -137,6 +143,10 @@
                 <img src="assets/images/instagram.svg" alt="Instagram" height="30" width="30">
              </div>
         </section>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1736.018912115497!2d78.97851917532738!3d29.19891765715301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d29.198021003908803!2d78.9797782633855!5e1!3m2!1sen!2sin!4v1729206308054!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
         
 
     </footer>
